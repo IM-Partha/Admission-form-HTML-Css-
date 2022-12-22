@@ -1,0 +1,29 @@
+.college{
+text-align:center;
+color: #070707;
+font-family: 'Source Sans Pro', sans-serif;
+}
+#p{
+    color: rgb(17, 13, 80);
+}
+@keyframes blinkButton {
+    0%{opacity: 0.1;}
+    10%{ opacity: 1;}
+}
+.admission{
+    color: rgb(2, 7, 13);
+    text-align: center;
+    font-weight: bolder;
+    animation: blinkButton 1s infinite;
+    height: 19px;
+    font-size: 22px;
+}
+body{
+    background-color: rgb(241, 234, 225);
+}
+#button{
+    text-align:center;
+}
+#pointer{
+    cursor: pointer;
+}
